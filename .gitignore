@@ -21,7 +21,7 @@ env/
 *.db
 *.sqlite3
 
-# --- Data artifacts (uploaded files, trained models, vector indexes) ---
+# --- Data artifacts (uploads, models, vector indexes) ---
 backend/data/uploads/
 backend/data/models/*.pkl
 backend/data/models/*.joblib
@@ -30,8 +30,9 @@ backend/data/training_data/*.csv
 
 # --- Logs ---
 *.log
+install_log.txt
 
-# --- OS / editor ---
+# --- OS / Editor ---
 .DS_Store
 .idea/
 .vscode/
