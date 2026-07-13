@@ -1,0 +1,31 @@
+:root {
+  --hs-primary: #2f6fed;
+  --hs-primary-dark: #1e4fb8;
+  --hs-bg: #f7f8fa;
+}
+
+body {
+  background-color: var(--hs-bg);
+}
+
+.navbar-brand {
+  letter-spacing: 0.02em;
+}
+
+#api-status-badge.bg-success {
+  background-color: #1f9d55 !important;
+}
+
+#api-status-badge.bg-danger {
+  background-color: #d64545 !important;
+}
+
+.btn-primary {
+  background-color: var(--hs-primary);
+  border-color: var(--hs-primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--hs-primary-dark);
+  border-color: var(--hs-primary-dark);
+}

@@ -1,0 +1,41 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+
+# --- Environment / secrets ---
+.env
+*.env
+!.env.example
+
+# --- Database ---
+*.db
+*.sqlite3
+
+# --- Data artifacts (uploaded files, trained models, vector indexes) ---
+backend/data/uploads/
+backend/data/models/*.pkl
+backend/data/models/*.joblib
+backend/data/faiss_index/
+backend/data/training_data/*.csv
+
+# --- Logs ---
+*.log
+
+# --- OS / editor ---
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# --- Docker ---
+docker-compose.override.yml
